@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title})}">
+<head>
+    <title>Services page</title>
+</head>
+<body>
+    <section id="content">
+        <h1>Welcome to services page</h1>
+        <h2>services offered by scm</h2>
+    </section>
+    
+</body>
+</html>
+<!-- th:replace="~{base::parent(~{::.third_content})}" -->
+<!-- th:replace="${isLogin}?~{base::parent(~{::.third_content})} : ~(base::test)" (login is coming from dynamic value)-->
